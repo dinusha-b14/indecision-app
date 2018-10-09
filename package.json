@@ -1,0 +1,30 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dinusha Bodhinayake",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack --watch",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+  },
+  "dependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "global": "^4.3.2",
+    "live-server": "^1.2.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "validator": "10.8.0",
+    "webpack": "4.20.2",
+    "webpack-cli": "3.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-google": "^0.10.0"
+  }
+}
